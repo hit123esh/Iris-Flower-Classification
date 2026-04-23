@@ -4,20 +4,6 @@ A complete end-to-end machine learning project that classifies iris flowers into
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [Models & Results](#models--results)
-- [Visualizations](#visualizations)
-- [Sample Terminal Output](#sample-terminal-output)
-- [Predicting New Samples](#predicting-new-samples)
-
----
-
 ## Overview
 
 This project trains and evaluates **6 machine learning classifiers** on the classic Iris dataset. It covers the full ML workflow — data exploration, visualization, model training, cross-validation, hyperparameter tuning, and inference on new samples.
@@ -50,51 +36,13 @@ The [Iris dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_i
 
 ---
 
-## Project Structure
-
-```
-iris_classifier/
-├── main.py              # Complete ML pipeline
-├── requirements.txt     # Python dependencies
-├── README.md            # This file
-├── plot_pairwise.png
-├── plot_boxplots.png
-├── plot_correlation.png
-├── plot_model_comparison.png
-├── plot_confusion_matrix.png
-├── plot_feature_importance.png
-└── plot_decision_boundary.png
-```
-
----
-
-## Setup & Installation
-
-### Prerequisites
-- Python 3.8+
-- pip or pip3
-
 ### Install dependencies
 
-```bash
-pip3 install numpy pandas matplotlib seaborn scikit-learn
-```
-
-Or using the requirements file:
+Use the requirements.txt file:
 
 ```bash
 pip3 install -r requirements.txt
 ```
-
----
-
-## Usage
-
-```bash
-python3 main.py
-```
-
-That's it — the script runs the full pipeline and saves all 7 plots to the current directory.
 
 ---
 
@@ -311,6 +259,5 @@ Borderline         versicolor         0.0%       100.0%       0.0%
 
 ---
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+## Author 
+Hitesh Umesh
